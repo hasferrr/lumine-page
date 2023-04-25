@@ -76,11 +76,39 @@ nav > a {
   height: 40px;
 }
 
-.img > img {
+#hero-box > .img > img {
   max-width: 375px;
+  object-fit: cover;
 }
 
-#information-box {}
+#information-box > h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  text-align: center;
+  padding: 20px;
+}
+
+.galery {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  padding: 10px;
+}
+
+.galery > .content > img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #1f2937;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.subtext {
+  text-align: center;
+}
 
 #quote-box {
   background-color: #e5e7eb;
