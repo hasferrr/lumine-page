@@ -146,7 +146,6 @@ nav > a {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   color: white;
   border-radius: 10px;
   border: 1px solid #3882f6;
@@ -164,4 +163,8 @@ nav > a {
 #footer {
   background-color: #1f2937;
   color: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
