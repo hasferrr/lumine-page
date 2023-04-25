@@ -42,7 +42,38 @@ nav > a {
 #hero-box {
   background-color: #1f2937;
   color: white;
-  padding-top: 1px;
+  padding-left: 15%;
+  padding-right: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 520px;
+}
+
+#hero-box > .text > h1 {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+#hero-box > .text > p {
+  font-weight: lighter;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.signup {
+  font-weight: lighter;
+  font-size: 16px;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid #3882f6;
+  background: #3882f6;
+  width: 100px;
+  height: 40px;
+}
+
+.img > img {
+  max-width: 350px;
 }
 
 #information-box {}
